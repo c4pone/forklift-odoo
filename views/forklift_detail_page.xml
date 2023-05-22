@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<odoo>
+  <template id="product_custom" inherit_id="website_sale.product" name="Product Custom">
+    <xpath expr="//div[@id='product_detail']" position="inside">
+      <div t-if="product.forklift_id">
+        <h3>Forklift Details:</h3>
+        <p>
+          <strong>Manufacturer:</strong>
+          <span t-field="product.forklift_id.manufacturer_id.name" />
+        </p>
+        <p>
+          <strong>Type:</strong>
+          <span t-field="product.forklift_id.type" />
+        </p>
+        <!-- Add more forklift details as needed -->
+      </div>
+    </xpath>
+  </template>
+</odoo>

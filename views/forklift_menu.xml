@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <menuitem id="forklift_top_menu" name="Forklifts" />
+    <menuitem id="forklift_menu" name="Forklifts" action="forklift_action" parent="forklift_top_menu" sequence="10"/>
+    <menuitem id="forklift_forklift_image_menu" name="Forklift Images" action="action_forklift_image" parent="forklift_top_menu" sequence="20"/>
+    <menuitem id="forklift_manufacturer_menu" name="Manufacturers" action="manufacturer_action" parent="forklift_top_menu" sequence="30"/>
+</odoo>

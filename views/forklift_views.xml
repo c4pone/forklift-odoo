@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <record id="forklift_tree_view" model="ir.ui.view">
+        <field name="name">forklift.forklift.tree</field>
+        <field name="model">forklift.forklift</field>
+        <field name="arch" type="xml">
+            <tree string="Properties">
+                <field name="manufacturer_id" />
+                <field name="type" />
+            </tree>
+        </field>
+    </record>
+
+
+    <record id="forklift_search_view" model="ir.ui.view">
+        <field name="name">forklift.forklift.search</field>
+        <field name="model">forklift.forklift</field>
+        <field name="arch" type="xml">
+            <search string="Search Forklift">
+                <field name="type" />
+                <field name="manufacturer_id" />
+                <field name="device_type" />
+                <!-- Add other fields as necessary -->
+            </search>
+        </field>
+    </record>
+
+    <record id="forklift_form_view" model="ir.ui.view">
+        <field name="name">forklift.form</field>
+        <field name="model">forklift.forklift</field>
+        <field name="arch" type="xml">
+            <form string="Forklift">
+                <sheet>
+                    <div class="oe_button_box" name="button_box">
+                        <button name="open_related_product" type="object"
+                            class="oe_stat_button" icon="fa-cube" context="{'create': False}">
+                            <field name="product_id" widget="statinfo" string="Related Product" />
+                        </button>
+                    </div>
+                    <group>
+                        <group>
+                            <field name="category_id" />
+                            <field name="manufacturer_id" />
+                            <field name="type" />
+                            <field name="price" />
+                            <field name="device_type" />
+                            <field name="device_structure" />
+                            <field name="serial_number" />
+                            <field name="year_built" />
+                            <field name="empty_weight" />
+                            <field name="battery_weight" />
+                            <field name="operating_hours" />
+                        </group>
+                        <group>
+                            <field name="lifting_capacity_kg" />
+                            <field name="lifting_height_mm" />
+                            <field name="construction_height_mm" />
+                            <field name="free_lift_mm" />
+                            <field name="mast_type" />
+                            <field name="hydraulic_control_circuits" />
+                            <field name="additional_function" />
+                            <field name="internal_reference" />
+                            <field name="barcode" />
+                            <field name="product_keywords" />
+                        </group>
+                    </group>
+                    <notebook>
+                        <page string="Images">
+                            <field name="image_ids" widget="one2many_list">
+                                <tree editable="bottom">
+                                    <field name="image" widget='image'
+                                        options="{'size': [150, 150]}" />
+                                </tree>
+                            </field>
+                        </page>
+                        <page string="Additional Information">
+                            <group>
+                                <group>
+                                    <field name="battery" />
+                                    <field name="charging_connector" />
+                                    <field name="fork_length" />
+                                    <field name="next_inspection_date" />
+                                </group>
+                                <group>
+                                    <field name="optical_condition" />
+                                    <field name="technical_condition" />
+                                    <field name="device_status" />
+                                </group>
+                            </group>
+                            <group>
+                                <group>
+                                    <field name="lighting" />
+                                    <field name="cabin" />
+                                </group>
+                                <group>
+                                    <field name="air_conditioning" />
+                                    <field name="driver_protection" />
+                                </group>
+                            </group>
+                            <group>
+                                <group>
+                                    <field name="wheels" />
+                                </group>
+                                <group>
+                                    <field name="wheel_axle" />
+                                </group>
+                            </group>
+                        </page>
+                    </notebook>
+                </sheet>
+            </form>
+        </field>
+    </record>
+
+    <record id="forklift_action" model="ir.actions.act_window">
+        <field name="name">Forklifts</field>
+        <field name="type">ir.actions.act_window</field>
+        <field name="res_model">forklift.forklift</field>
+        <field name="view_mode">tree,form</field>
+        <field name="search_view_id" ref="forklift_search_view" />
+        <field name="view_id" ref="forklift_tree_view" />
+        <field name="help" type="html">
+            <p class="oe_view_nocontent_create">
+                Click to create a new forklift.
+            </p>
+        </field>
+    </record>
+</odoo>

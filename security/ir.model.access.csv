@@ -1,0 +1,4 @@
+id,name,model_id:id,group_id:id,perm_read,perm_write,perm_create,perm_unlink
+access_forklift_forklift,access_forklift_forklift,model_forklift_forklift,base.group_user,1,1,1,1
+access_forklift_manufacturer,access_forklift_manufacturer,model_forklift_manufacturer,base.group_user,1,1,1,1
+access_forklift_forklift_image,access_forklift_forklift_image,model_forklift_forklift_image,base.group_user,1,1,1,1

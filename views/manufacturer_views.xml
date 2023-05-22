@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<odoo>
+    <record id="manufacturer_tree_view" model="ir.ui.view">
+        <field name="name">forklift.manufacturer.tree</field>
+        <field name="model">forklift.manufacturer</field>
+        <field name="arch" type="xml">
+            <tree string="Manufacturer">
+                <field name="name"/>
+            </tree>
+        </field>
+    </record>
+
+    <record id="manufacturer_form_view" model="ir.ui.view">
+        <field name="name">forklift.manufacturer.form</field>
+        <field name="model">forklift.manufacturer</field>
+        <field name="arch" type="xml">
+            <form string="Manufacturer">
+                <sheet>
+                    <group>
+                        <field name="name"/>
+                    </group>
+                </sheet>
+            </form>
+        </field>
+    </record>
+
+    <record id="manufacturer_action" model="ir.actions.act_window">
+        <field name="name">Manufacturers</field>
+        <field name="type">ir.actions.act_window</field>
+        <field name="res_model">forklift.manufacturer</field>
+        <field name="view_mode">tree,form</field>
+    </record>
+
+</odoo>

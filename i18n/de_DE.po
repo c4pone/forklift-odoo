@@ -1,0 +1,420 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# 	* forklift
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 16.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2023-05-17 13:30+0000\n"
+"PO-Revision-Date: 2023-05-17 13:30+0000\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+"Plural-Forms: \n"
+
+#. module: forklift
+#. odoo-python
+#: code:addons/forklift/models/forklift.py:0
+#, python-format
+msgid " Air conditioning is installed for the driver's comfort."
+msgstr " Airconditioning ist für den Komfort des Fahrers installiert."
+
+#. module: forklift
+#. odoo-python
+#: code:addons/forklift/models/forklift.py:0
+#, python-format
+msgid " Driver protection features are also included."
+msgstr " Der Fahrerschutz ist ebenfalls enthalten."
+
+#. module: forklift
+#. odoo-python
+#: code:addons/forklift/models/forklift.py:0
+#, python-format
+msgid " It also has a cabin."
+msgstr " Es hat auch eine Kabine."
+
+#. module: forklift
+#. odoo-python
+#: code:addons/forklift/models/forklift.py:0
+#, python-format
+msgid " The forklift has {} wheels and a {} wheel/axle configuration."
+msgstr " Der Gabelstapler hat {} Räder und eine {} Rad-/Achskonfiguration."
+
+#. module: forklift
+#. odoo-python
+#: code:addons/forklift/models/forklift.py:0
+#, python-format
+msgid " The forklift is equipped with lighting."
+msgstr " Der Gabelstapler ist mit Beleuchtung ausgestattet."
+
+#. module: forklift
+#: model:ir.model.fields,field_description:forklift.field_forklift_forklift__additional_function
+msgid "Additional Function"
+msgstr "Weitere Funktion"
+
+#. module: forklift
+#: model_terms:ir.ui.view,arch_db:forklift.forklift_form_view
+msgid "Additional Information"
+msgstr "Weitere Informationen"
+
+#. module: forklift
+#: model:ir.model.fields,field_description:forklift.field_forklift_forklift__air_conditioning
+msgid "Air Conditioning"
+msgstr "Air Conditioning"
+
+#. module: forklift
+#: model:ir.model.fields.selection,name:forklift.selection__forklift_forklift__device_status__available
+msgid "Available"
+msgstr "Verfügbar"
+
+#. module: forklift
+#: model:ir.model.fields.selection,name:forklift.selection__forklift_forklift__optical_condition__average
+#: model:ir.model.fields.selection,name:forklift.selection__forklift_forklift__technical_condition__average
+msgid "Average"
+msgstr "Durchschnittlich"
+
+#. module: forklift
+#: model:ir.model.fields,field_description:forklift.field_forklift_forklift__barcode
+msgid "Barcode"
+msgstr "Barcode"
+
+#. module: forklift
+#: model:ir.model.fields,field_description:forklift.field_forklift_forklift__battery
+msgid "Battery"
+msgstr "Batterie"
+
+#. module: forklift
+#: model:ir.model.fields,field_description:forklift.field_forklift_forklift__battery_weight
+msgid "Battery Weight"
+msgstr "Batteriegewicht"
+
+#. module: forklift
+#: model:ir.model.fields,field_description:forklift.field_forklift_forklift__cabin
+msgid "Cabin"
+msgstr "Kabine"
+
+#. module: forklift
+#: model:ir.model.fields,field_description:forklift.field_forklift_forklift__charging_connector
+msgid "Charging Connector"
+msgstr "Ladeanschluss"
+
+#. module: forklift
+#: model_terms:ir.actions.act_window,help:forklift.forklift_action
+msgid "Click to create a new forklift."
+msgstr "Klick um einen neuen Gabelstapler zu erstellen."
+
+#. module: forklift
+#: model:ir.model.fields,field_description:forklift.field_forklift_forklift__construction_height_mm
+msgid "Construction Height (mm)"
+msgstr "Bauhöhe (mm)"
+
+#. module: forklift
+#: model_terms:ir.actions.act_window,help:forklift.action_product_form
+msgid "Create new product"
+msgstr "Erstelle neues Produkt"
+
+#. module: forklift
+#: model:ir.model.fields,field_description:forklift.field_forklift_forklift__create_uid
+#: model:ir.model.fields,field_description:forklift.field_forklift_forklift_image__create_uid
+#: model:ir.model.fields,field_description:forklift.field_forklift_manufacturer__create_uid
+msgid "Created by"
+msgstr "Erstellt von"
+
+#. module: forklift
+#: model:ir.model.fields,field_description:forklift.field_forklift_forklift__create_date
+#: model:ir.model.fields,field_description:forklift.field_forklift_forklift_image__create_date
+#: model:ir.model.fields,field_description:forklift.field_forklift_manufacturer__create_date
+msgid "Created on"
+msgstr "Erstellt am"
+
+#. module: forklift
+#: model:ir.model.fields,field_description:forklift.field_forklift_forklift__device_status
+msgid "Device Status"
+msgstr "Gerätestatus"
+
+#. module: forklift
+#: model:ir.model.fields,field_description:forklift.field_forklift_forklift__device_structure
+msgid "Device Structure"
+msgstr "Gerätestruktur"
+
+#. module: forklift
+#: model:ir.model.fields,field_description:forklift.field_forklift_forklift__device_type
+msgid "Device Type"
+msgstr "Gerätetyp"
+
+#. module: forklift
+#: model:ir.model.fields,field_description:forklift.field_forklift_forklift__display_name
+#: model:ir.model.fields,field_description:forklift.field_forklift_forklift_image__display_name
+#: model:ir.model.fields,field_description:forklift.field_forklift_manufacturer__display_name
+msgid "Display Name"
+msgstr "Display-Name"
+
+#. module: forklift
+#: model:ir.model.fields,field_description:forklift.field_forklift_forklift__driver_protection
+msgid "Driver Protection"
+msgstr "Fahrerschutz"
+
+#. module: forklift
+#: model:ir.model.fields,field_description:forklift.field_forklift_forklift__empty_weight
+msgid "Empty Weight"
+msgstr "Leergewicht"
+
+#. module: forklift
+#: model:ir.model.fields.selection,name:forklift.selection__forklift_forklift__optical_condition__excellent
+#: model:ir.model.fields.selection,name:forklift.selection__forklift_forklift__technical_condition__excellent
+msgid "Excellent"
+msgstr "Hervorragend"
+
+#. module: forklift
+#: model:ir.model.fields,field_description:forklift.field_forklift_forklift__fork_length
+msgid "Fork Length"
+msgstr "Gabellänge"
+
+#. module: forklift
+#: model:ir.model.fields,field_description:forklift.field_forklift_forklift_image__forklift_id
+#: model:ir.model.fields,field_description:forklift.field_product_product__forklift_id
+#: model:ir.model.fields,field_description:forklift.field_product_template__forklift_id
+#: model_terms:ir.ui.view,arch_db:forklift.forklift_form_view
+msgid "Forklift"
+msgstr "Gabelstapler"
+
+#. module: forklift
+#: model:ir.actions.act_window,name:forklift.action_forklift_image
+#: model:ir.model,name:forklift.model_forklift_forklift_image
+#: model_terms:ir.ui.view,arch_db:forklift.view_forklift_image_form
+msgid "Forklift Image"
+msgstr "Gabelstapler Bild"
+
+#. module: forklift
+#: model:ir.ui.menu,name:forklift.forklift_forklift_image_menu
+#: model_terms:ir.ui.view,arch_db:forklift.view_forklift_image_tree
+msgid "Forklift Images"
+msgstr "Gabelstapler Bilder"
+
+#. module: forklift
+#: model:ir.model,name:forklift.model_forklift_manufacturer
+msgid "Forklift Manufacturer"
+msgstr "Gabelstapler Hersteller"
+
+#. module: forklift
+#: model:ir.model,name:forklift.model_forklift_forklift
+msgid "Forklift Model"
+msgstr "Gabelstapler Modell"
+
+#. module: forklift
+#: model:ir.actions.act_window,name:forklift.forklift_action
+#: model:ir.ui.menu,name:forklift.forklift_menu
+#: model:ir.ui.menu,name:forklift.forklift_top_menu
+msgid "Forklifts"
+msgstr "Gabelstapler"
+
+#. module: forklift
+#: model:ir.model.fields,field_description:forklift.field_forklift_forklift__free_lift_mm
+msgid "Free Lift (mm)"
+msgstr "Freihub (mm)"
+
+#. module: forklift
+#: model:ir.model.fields.selection,name:forklift.selection__forklift_forklift__optical_condition__good
+#: model:ir.model.fields.selection,name:forklift.selection__forklift_forklift__technical_condition__good
+msgid "Good"
+msgstr "Gut"
+
+#. module: forklift
+#: model:ir.model.fields,field_description:forklift.field_forklift_forklift__hydraulic_control_circuits
+msgid "Hydraulic Control Circuits"
+msgstr "Hydraulische Steuerkreise"
+
+#. module: forklift
+#: model:ir.model.fields,field_description:forklift.field_forklift_forklift__id
+#: model:ir.model.fields,field_description:forklift.field_forklift_forklift_image__id
+#: model:ir.model.fields,field_description:forklift.field_forklift_manufacturer__id
+msgid "ID"
+msgstr ""
+
+#. module: forklift
+#: model:ir.model.fields,field_description:forklift.field_forklift_forklift_image__image
+msgid "Image"
+msgstr "Bild"
+
+#. module: forklift
+#: model:ir.model.fields,field_description:forklift.field_forklift_forklift__image_ids
+#: model_terms:ir.ui.view,arch_db:forklift.forklift_form_view
+msgid "Images"
+msgstr "Bilder"
+
+#. module: forklift
+#: model:ir.model.fields,field_description:forklift.field_forklift_forklift__internal_reference
+msgid "Internal Reference"
+msgstr "Interne Referenz"
+
+#. module: forklift
+#: model:ir.model.fields,field_description:forklift.field_product_product__is_forklift
+#: model:ir.model.fields,field_description:forklift.field_product_template__is_forklift
+msgid "Is a Forklift"
+msgstr "Ist ein Gabelstapler"
+
+#. module: forklift
+#: model:ir.model.fields,field_description:forklift.field_forklift_forklift____last_update
+#: model:ir.model.fields,field_description:forklift.field_forklift_forklift_image____last_update
+#: model:ir.model.fields,field_description:forklift.field_forklift_manufacturer____last_update
+msgid "Last Modified on"
+msgstr "Zuletzt geändert am"
+
+#. module: forklift
+#: model:ir.model.fields,field_description:forklift.field_forklift_forklift__write_uid
+#: model:ir.model.fields,field_description:forklift.field_forklift_forklift_image__write_uid
+#: model:ir.model.fields,field_description:forklift.field_forklift_manufacturer__write_uid
+msgid "Last Updated by"
+msgstr "Zuletzt geändert von"
+
+#. module: forklift
+#: model:ir.model.fields,field_description:forklift.field_forklift_forklift__write_date
+#: model:ir.model.fields,field_description:forklift.field_forklift_forklift_image__write_date
+#: model:ir.model.fields,field_description:forklift.field_forklift_manufacturer__write_date
+msgid "Last Updated on"
+msgstr "Zuletzt geändert am"
+
+#. module: forklift
+#: model:ir.model.fields,field_description:forklift.field_forklift_forklift__lifting_capacity_kg
+msgid "Lifting Capacity (kg)"
+msgstr "Tragfähigkeit (kg)"
+
+#. module: forklift
+#: model:ir.model.fields,field_description:forklift.field_forklift_forklift__lifting_height_mm
+msgid "Lifting Height (mm)"
+msgstr "Hubhöhe (mm)"
+
+#. module: forklift
+#: model:ir.model.fields,field_description:forklift.field_forklift_forklift__lighting
+msgid "Lighting"
+msgstr "Beleuchtung"
+
+#. module: forklift
+#: model:ir.model.fields,field_description:forklift.field_forklift_forklift__manufacturer_id
+#: model_terms:ir.ui.view,arch_db:forklift.manufacturer_form_view
+#: model_terms:ir.ui.view,arch_db:forklift.manufacturer_tree_view
+msgid "Manufacturer"
+msgstr "Hersteller"
+
+#. module: forklift
+#: model:ir.model.fields,field_description:forklift.field_forklift_manufacturer__name
+msgid "Manufacturer Name"
+msgstr "Hersteller Name"
+
+#. module: forklift
+#: model:ir.actions.act_window,name:forklift.manufacturer_action
+#: model:ir.ui.menu,name:forklift.forklift_manufacturer_menu
+msgid "Manufacturers"
+msgstr "Hersteller"
+
+#. module: forklift
+#: model:ir.model.fields,field_description:forklift.field_forklift_forklift__mast_type
+msgid "Mast Type"
+msgstr "Masttyp"
+
+#. module: forklift
+#: model:ir.model.fields,field_description:forklift.field_forklift_forklift__next_inspection_date
+msgid "Next Inspection Date"
+msgstr "Nächster Prüftermin"
+
+#. module: forklift
+#: model:ir.model.fields,field_description:forklift.field_forklift_forklift__operating_hours
+msgid "Operating Hours"
+msgstr "Betriebsstunden"
+
+#. module: forklift
+#: model:ir.model.fields,field_description:forklift.field_forklift_forklift__optical_condition
+msgid "Optical Condition"
+msgstr "Optischer Zustand"
+
+#. module: forklift
+#: model:ir.model.fields.selection,name:forklift.selection__forklift_forklift__optical_condition__poor
+#: model:ir.model.fields.selection,name:forklift.selection__forklift_forklift__technical_condition__poor
+msgid "Poor"
+msgstr "Schlecht"
+
+#. module: forklift
+#: model:ir.model.fields,field_description:forklift.field_forklift_forklift__price
+msgid "Price"
+msgstr "Preis"
+
+#. module: forklift
+#: model:ir.actions.act_window,name:forklift.action_product_form
+#: model:ir.model,name:forklift.model_product_template
+#: model:ir.model.fields,field_description:forklift.field_forklift_forklift__product_id
+msgid "Product"
+msgstr "Produkt"
+
+#. module: forklift
+#: model:ir.model.fields,field_description:forklift.field_forklift_forklift__product_keywords
+msgid "Product Keywords"
+msgstr "Produkt Schlüsselwörter"
+
+#. module: forklift
+#: model:ir.model.fields,help:forklift.field_forklift_forklift__product_id
+msgid "Product configure"
+msgstr "Produkt Konfiguration"
+
+#. module: forklift
+#: model_terms:ir.ui.view,arch_db:forklift.forklift_tree_view
+msgid "Properties"
+msgstr "Eigenschaften"
+
+#. module: forklift
+#: model_terms:ir.ui.view,arch_db:forklift.forklift_form_view
+msgid "Related Product"
+msgstr "Zum Produkt"
+
+#. module: forklift
+#: model_terms:ir.ui.view,arch_db:forklift.forklift_search_view
+msgid "Search Forklift"
+msgstr "Suche Gabelstapler"
+
+#. module: forklift
+#: model:ir.model.fields,field_description:forklift.field_forklift_forklift__serial_number
+msgid "Serial Number"
+msgstr "Seriennummer"
+
+#. module: forklift
+#: model:ir.model.fields,field_description:forklift.field_forklift_forklift__technical_condition
+msgid "Technical Condition"
+msgstr "Technischer Zustand"
+
+#. module: forklift
+#. odoo-python
+#: code:addons/forklift/models/forklift.py:0
+#, python-format
+msgid ""
+"This {} {} forklift, built in {}, has a lifting capacity of {} kg and a "
+"lifting height of {} mm. It features a {} mast type and {} hydraulic control"
+" circuits. The forklift is in {} optical condition and {} technical "
+"condition. It comes with a {} battery and {} charging connector."
+msgstr "Das {} {} Gabelstapler, gebaut in {}, hat eine Tragfähigkeit von {} kg und eine Hubhöhe von {} mm. Es verfügt über einen {} Masttyp und {} hydraulische Steuerkreise. Der Gabelstapler ist in {} optischem Zustand und {} technischem Zustand. Es wird mit einer {} Batterie und einem {} Ladeanschluss geliefert."
+
+#. module: forklift
+#: model:ir.model.fields,field_description:forklift.field_forklift_forklift__type
+msgid "Type"
+msgstr "Typ"
+
+#. module: forklift
+#: model:ir.model.fields.selection,name:forklift.selection__forklift_forklift__device_status__unavailable
+msgid "Unavailable"
+msgstr "Nich verfügbar"
+
+#. module: forklift
+#: model:ir.model.fields,field_description:forklift.field_forklift_forklift__wheel_axle
+msgid "Wheel/Axle"
+msgstr "Rad/Achse"
+
+#. module: forklift
+#: model:ir.model.fields,field_description:forklift.field_forklift_forklift__wheels
+msgid "Wheels"
+msgstr "Räder"
+
+#. module: forklift
+#: model:ir.model.fields,field_description:forklift.field_forklift_forklift__year_built
+msgid "Year Built"
+msgstr "Baujahr"
