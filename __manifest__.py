@@ -1,9 +1,9 @@
 # -*- coding: utf-8 -*-
 # More info at https://www.odoo.com/documentation/master/reference/module.html
 {
-    "name": "Flo Testing Module",
+    "name": "Forklift Management",
     "version": "1.0",
-    "author": "Flo",
+    "author": "Florian Kirchner",
     "category": "Warehouse",
     "license": "AGPL-3",
     "summary": "Manage forklifts as products in eCommerce",
