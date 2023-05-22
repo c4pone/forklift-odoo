@@ -5,7 +5,7 @@
     "version": "1.0",
     "author": "Florian Kirchner",
     "category": "Warehouse",
-    "license": "AGPL-3",
+    "license": "LGPL-3",
     "summary": "Manage forklifts as products in eCommerce",
     "depends": ["base", "product", "website_sale"],
     "data": [
